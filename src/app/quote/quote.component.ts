@@ -8,9 +8,9 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
 
   quotes: Quote[] = [
-    new Quote(1, 'Education is the key to successs', 'Nelson mandela', 'Brendah', new Date(2020,8,3), 0, 0),
-    new Quote(2, 'Giving up is a birth of regrets', 'Deshauna Barber ', 'zilfa', new Date(2019, 12, 9), 0, 0),
-    new Quote(3, ' my life is good', 'Diana ', 'sisse', new Date(2018, 9, 12), 0, 0)
+    new Quote(1, 'Life is a long lesson in humility', 'James M. Barrie', 'Ketsia', new Date(2020,8,3), 0, 0),
+    new Quote(2, 'Giving up is a birth of regrets', 'Deshauna Barber ', 'Cynthia', new Date(2019, 12, 9), 0, 0),
+    new Quote(3, ' Life is ours to be spent, not to be saved', 'D.H.Lawrence ', 'Kenneth', new Date(2018, 9, 12), 0, 0)
   ]
 
   deleteQuote(isComplete, index){
