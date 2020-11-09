@@ -1,6 +1,6 @@
-<P style="margin-left: 50px;"> Author: {{quote.author}}</P>
-<p style="margin-left: 50px;"> publisher: {{quote.publisher}}</p>
+<P style="margin-left: 50px;"> Quote: {{quote.quote}}</P>
+<p style="margin-left: 50px;"> author: {{quote.author}}</p>
 <p style="margin-left: 50px;">published on {{quote.completeDate|dateCount}} days ago </p>
-<button (click)='upvote()' class="btn ">{{quote.upvote}} upvote</button>
-<button (click)='downvote()' class="btn ">{{quote.downvote}} downvote</button>
-<button (click)='quoteDelete(true)' class="btn">Delete quote</button>
+<button (click)='upvote()' class="btn btn-outline-info">{{quote.upvote}} upvote</button>
+<button (click)='downvote()' class="btn btn-outline-info">{{quote.downvote}} downvote</button>
+<button (click)='quoteDelete(true)' class="btn btn-outline-info">Delete quote</button>
