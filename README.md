@@ -1,4 +1,30 @@
-# IP
+
+### Contents
+---
+* Author's name
+* Project description
+* Contact information 
+* Sneak pic
+* Known bugs
+* Technologies used
+* Project setup instructions
+#  *Ketsia Iragena*
+## WiWo(wise words)
+This is a website where a user can read quotes vote on those they like and dislike and even post heir own quotes.
+  
+  #### Sneak pic
+  ![click here](https://github.com/Ketsia-a/Quote/blob/master/src/assets/Screenshot%20from%202020-11-09%2017-23-23.png)
+  
+  # Contact information
+   Email me at: iraketsia2001@gmail.com
+   Call at : 0787802518
+   
+   ## Known bugs
+   * the logo on navigation bar does not display
+ 
+   If you find a problem with the website, please [report it in the web reposiory](https://github.com/Ketsia-a/Quote) 
+
+   # IP
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
 
