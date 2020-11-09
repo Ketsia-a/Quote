@@ -12,9 +12,7 @@ export class QuoteComponent implements OnInit {
     new Quote(2, 'Giving up is a birth of regrets', 'Deshauna Barber ', 'zilfa', new Date(2019, 12, 9), 0, 0),
     new Quote(3, ' my life is good', 'Diana ', 'sisse', new Date(2018, 9, 12), 0, 0)
   ]
-  // toggleDetails(index){
-  //   this.quotes[index].showDescription = !this.quotes[index].showDescription;
-  // }
+
   deleteQuote(isComplete, index){
     if (isComplete) {
       let toDelete = confirm(`Are you sure you want to delete this quote?`)
